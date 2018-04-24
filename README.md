@@ -8,8 +8,10 @@ This project allows you to add short names for long URIs, and when the shortname
 In the "Short name" field, just mention the short name you want to give for a long URI. Then add the shortname in the path part of the URI.
 
 For example,
-Long URI: https://www.google.com/about
-Short name: aboutgoogle
+
+  Long URI: https://www.google.com/about
+
+  Short name: aboutgoogle
 
 Then, type in the address bar
 ```
