@@ -9,9 +9,9 @@ In the "Short name" field, just mention the short name you want to give for a lo
 
 For example,
 
-  Long URI: https://www.google.com/about
+- Long URI: https://www.google.com/about
 
-  Short name: aboutgoogle
+- Short name: aboutgoogle
 
 Then, type in the address bar
 ```
