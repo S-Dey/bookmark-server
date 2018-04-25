@@ -24,4 +24,4 @@ It would redirect you to `https://www.google.com/about`.
 A demo of this project can be found over [here](https://bookmark-server-threadless.herokuapp.com/)
 
 ## Problem with this project
-When in the "Long URI" field, you enter the bookmark server's own URI, that is, `https://bookmark-server-threadless.herokuapp.com/` here, you would find that it returns an error. That's because Python's `http.server` module can handle only one request at a time. For handling multiple requests, check out [this program](https://github.com/SDey96/bookmark-server-multithreaded).
+When in the "Long URI" field, you enter the bookmark server's own URI, that is, `https://bookmark-server-threadless.herokuapp.com/` here, you would find that it returns an error. That's because Python's `http.server` module can handle only one request at a time. For handling multiple requests, you need a mixin. Check out [this program](https://github.com/SDey96/bookmark-server-multithreaded) to know how it works.
